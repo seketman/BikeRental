@@ -53,8 +53,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Model\PriceTests.cs" />
+    <Compile Include="Model\PromotionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\CheckTests.cs" />
+    <Compile Include="Utils\CheckStringTests.cs" />
+    <Compile Include="Utils\CheckIntTests.cs" />
+    <Compile Include="Utils\CheckDecimalTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BikeRental\BikeRental.csproj">

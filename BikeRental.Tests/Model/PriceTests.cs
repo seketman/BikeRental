@@ -21,6 +21,19 @@
         }
 
         [TestMethod]
+        public void Price_WithZeroAmount_Created()
+        {
+            // Arrange
+            decimal expectedAmount = 0;
+
+            // Act
+            var price = new Price(Time.UnitsEnum.Hour, expectedAmount);
+
+            // Assert
+            Assert.AreEqual(expectedAmount, price.Amount);
+        }
+
+        [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Price_WithNegativeAmount_ThrownArgumentOutOfRangeException()
         {
