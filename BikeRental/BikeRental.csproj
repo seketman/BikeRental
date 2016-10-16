@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="Model\IPrice.cs" />
     <Compile Include="Model\IPromotion.cs" />
+    <Compile Include="Model\IRental.cs" />
     <Compile Include="Model\Price.cs" />
     <Compile Include="Model\Promotion.cs" />
+    <Compile Include="Model\Rental.cs" />
     <Compile Include="Model\Time.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

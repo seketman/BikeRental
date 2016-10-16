@@ -11,6 +11,27 @@
         public const string NegativeValuesAreNotAllowedMessage = "Negative values are not allowed";
         public const string NegativeOrZeroValuesAreNotAllowedMessage = "Negative or zero values are not allowed";
 
+
+        public static T NotNull<T>(T value, string parameterName) where T : class
+        {
+            if (value == null)
+            {
+                throw new ArgumentNullException(parameterName);
+            }
+
+            return value;
+        }
+
+        public static T? NotNull<T>(T? value, string parameterName) where T : struct
+        {
+            if (value == null)
+            {
+                throw new ArgumentNullException(parameterName);
+            }
+
+            return value;
+        }
+
         /// <summary>
         ///     Verify that a string is not null or empty.
         /// </summary>

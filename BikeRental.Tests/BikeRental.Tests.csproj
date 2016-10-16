@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Model\PriceTests.cs" />
     <Compile Include="Model\PromotionTests.cs" />
+    <Compile Include="Model\RentalTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\CheckStringTests.cs" />
     <Compile Include="Utils\CheckIntTests.cs" />
@@ -65,7 +66,6 @@
       <Name>BikeRental</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
