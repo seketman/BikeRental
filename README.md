@@ -21,5 +21,5 @@ Is a simple design with Rental, Price, and Promotion classes for a basic process
 
 - Download or clone this repository.
 - Open solution file BikeRental.sln with Visual Studio.
-- Go to Test Explorer window.
-- Select Run All option.
+- Go to Test menu, select Windows submenu, and Test Explorer option.
+- Into Test Explorer window select Run All option.

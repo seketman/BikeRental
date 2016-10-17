@@ -11,7 +11,13 @@
         public const string NegativeValuesAreNotAllowedMessage = "Negative values are not allowed";
         public const string NegativeOrZeroValuesAreNotAllowedMessage = "Negative or zero values are not allowed";
 
-
+        /// <summary>
+        ///     Verify not null object parameter
+        /// </summary>
+        /// <typeparam name="T">Parameter type</typeparam>
+        /// <param name="value">Parameter value</param>
+        /// <param name="parameterName">Parameter name</param>
+        /// <returns>Original parameter value</returns>
         public static T NotNull<T>(T value, string parameterName) where T : class
         {
             if (value == null)
@@ -22,6 +28,13 @@
             return value;
         }
 
+        /// <summary>
+        ///     Verify not null parameter value
+        /// </summary>
+        /// <typeparam name="T">Parameter type</typeparam>
+        /// <param name="value">Parameter value</param>
+        /// <param name="parameterName">Parameter name</param>
+        /// <returns>Original parameter value</returns>
         public static T? NotNull<T>(T? value, string parameterName) where T : struct
         {
             if (value == null)

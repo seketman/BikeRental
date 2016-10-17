@@ -59,6 +59,7 @@
     <Compile Include="Utils\CheckStringTests.cs" />
     <Compile Include="Utils\CheckIntTests.cs" />
     <Compile Include="Utils\CheckDecimalTests.cs" />
+    <Compile Include="Utils\CheckGenericTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BikeRental\BikeRental.csproj">
