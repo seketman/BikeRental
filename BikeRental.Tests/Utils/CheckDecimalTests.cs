@@ -8,7 +8,7 @@
     public class CheckDecimalTests
     {
         /// <summary>
-        ///     CheckNotNegative tests
+        ///     Check.NotNegative tests
         /// </summary>
         [TestMethod]
         public void NotNegative_WithPositiveValue_ReturnOriginalValue()
@@ -53,7 +53,7 @@
         }
 
         /// <summary>
-        ///     CheckNotNegative tests
+        ///     Check.NotZeroOrNegative tests
         /// </summary>
         [TestMethod]
         public void NotZeroOrNegative_WithPositiveValue_ReturnOriginalValue()

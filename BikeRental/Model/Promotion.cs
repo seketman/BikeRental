@@ -3,7 +3,7 @@
     using Utils;
 
     /// <summary>
-    ///     Promotion for a specific number of bykes rental
+    ///     Promotion for a specific number of bikes rental
     /// </summary>
     public class Promotion : IPromotion
     {
